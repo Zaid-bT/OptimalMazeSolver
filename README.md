@@ -98,4 +98,97 @@ The game uses a dark, neon-inspired visual theme.
 | ← | Move Left |
 | → | Move Right |
 
-## ⚙️ Installation and
+## ⚙️ Installation and Setup
+Prerequisites
+
+Make sure you have installed:
+
+Qt 6
+
+Qt Creator
+
+A compatible C++ compiler (MinGW or MSVC)
+
+CMake or qmake, depending on the project configuration
+
+Running the Project
+
+Clone the repository:
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+Open Qt Creator.
+
+Select File → Open File or Project.
+
+Open the project's .pro file or CMakeLists.txt, depending on your project setup.
+
+Configure the project using an available Qt 6 kit.
+
+Build and run the application.
+
+📂 Project Structure
+
+The main project files include:
+
+Optimal-Maze-Solver/
+│
+├── main.cpp
+├── mainwindow.cpp
+├── mainwindow.h
+├── mainwindow.ui
+│
+├── mazewidget.cpp
+├── mazewidget.h
+│
+├── resources/           
+│
+└── README.md
+
+🚀 Future Improvements
+
+Potential improvements for future versions include:
+
+Maze completion timer and move counter.
+
+Performance statistics for each difficulty.
+
+More advanced maze generation techniques.
+
+Additional maze customization options.
+
+Sound effects and background music.
+
+Improved animations and visual effects.
+
+Saving and displaying previous game results.
+
+📚 Learning Outcomes
+
+This project provided practical experience with:
+
+Object-Oriented Programming in C++.
+
+GUI development using Qt Widgets.
+
+Recursive algorithms and backtracking.
+
+Graph traversal and BFS.
+
+Queue-based pathfinding.
+
+2D graphics rendering using QPainter.
+
+Event handling and keyboard input.
+
+Signals and slots in Qt.
+
+Working with Git and GitHub.
+
+👨‍💻 Author
+
+Zaid
+
+Developed as a C++ and Data Structures & Algorithms project.
+
+Explore the maze, find your way out, and see how close you get to the optimal solution! 🧩
